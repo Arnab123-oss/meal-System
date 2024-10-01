@@ -1,0 +1,182 @@
+.lunch {
+    display: block;
+    background-color: #ff9a3b;
+    color: #000;
+    padding: 6px 10px;
+    margin-top: 4px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .dinner {
+    display: block;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 6px 10px;
+    margin-top: 4px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .calendar-container {
+    width: 80%;
+    margin: 3.5rem auto;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    background-color: #86fee4;
+  }
+  
+  .react-calendar__tile {
+    font-size: 1.1rem;
+    position: relative; /* Ensure tiles are positioned correctly */
+  }
+  
+  .react-calendar__tile--active:enabled:hover,
+  .react-calendar__tile--active:enabled:focus {
+    background: transparent;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #933953 !important;
+  }
+  
+  .react-calendar__tile--now {
+    background: #110d2249;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .react-calendar__tile:hover,
+  .react-calendar__month-view__days__day--neighboringMonth:hover,
+  .react-calendar__tile--active:hover {
+    background-color: transparent !important;
+    color: #933953 !important;
+    cursor: default;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  
+  .react-calendar__navigation button {
+    min-width: 5rem;
+    background: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .react-calendar__tile--active {
+    background: transparent;
+    color: inherit;
+  }
+  
+
+  /* calender page */
+
+  .calendar-container {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .rbc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #E6E6FA; /* Lavender background */
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rbc-btn-group button {
+    background-color: #4B0082; /* Dark violet */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .rbc-btn-group button:hover {
+    background-color: #9400D3; /* Lighter violet */
+  }
+  
+  .rbc-toolbar-label {
+    font-weight: bold;
+    color: #4B0082; /* Dark violet */
+  }
+  
+  .rbc-calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rbc-month-view, .rbc-day-view, .rbc-agenda-view, .rbc-week-view {
+    background-color: #ffffff; /* White background */
+  }
+  
+  .rbc-header {
+    color: #4B0082; /* Dark violet for header */
+    border-bottom: 2px solid #E6E6FA; /* Light lavender border */
+  }
+  
+  .rbc-event {
+    background-color: #9400D3; /* Lighter violet for events */
+    border-radius: 4px;
+    padding: 2px 4px;
+    color: #ffffff; /* White text on events */
+    border: 1px solid #4B0082; /* Border matching dark violet */
+  }
+  
+  .rbc-event:hover {
+    background-color: #4B0082; /* Darker violet on hover */
+    border: 1px solid #9400D3; /* Lighter border on hover */
+  }
+  
+  .rbc-today {
+    background-color: #E6E6FA !important; /* Highlight today in lavender */
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header, .modal-footer {
+    border: none;
+  }
+  
+  .modal-title {
+    color: #4B0082;
+  }
+  
+  .btn-primary {
+    background-color: #4B0082;
+    border-color: #4B0082;
+  }
+  
+  .btn-primary:hover {
+    background-color: #9400D3;
+    border-color: #9400D3;
+  }
